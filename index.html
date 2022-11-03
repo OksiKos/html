@@ -10,6 +10,12 @@
         h1 {
             color: cornflowerblue;
         }
+
+        .form {
+            position: absolute;
+            background: #ccc;
+            padding-bottom: 20px;
+        }
     </style>
 </head>
 
@@ -62,8 +68,9 @@
     <p>Mountain massifs in Ukraine are represented by a part of the Carpathian Mountains - the Ukrainian Carpathians,
         where the highest peak of Ukraine is located - Mount Hoverla (2061 m above sea level), and the Crimean
         Mountains, the highest peak of which is Mount Roman-Kosh (1545 m).</p>
-    <h1 id="title5">About you:</h1>
-    <form action="https://en.wikipedia.org/wiki/Ukraine">
+
+    <form class="form" action="https://en.wikipedia.org/wiki/Ukraine">
+        <h1 id="title5">About you:</h1>
         <div>
             <img width="300" src="img/8fa22a2a3cccf0d6dd699296f306deec.jpg" alt="ukrainian">
             <label for="ukrainian"><input id="ukrainian" type="radio" name="country" checked>Ukrainian</label>
